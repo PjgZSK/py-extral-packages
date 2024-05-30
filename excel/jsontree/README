@@ -1,0 +1,6 @@
+1. Convert a directory into a JSON file
+    python tool.py your/directory -o your/output/directory -name your/output/JSON/name -i ignore_re_pattern -j
+2. Convert a JSON file into a directory
+    python tool.py your/JSON/file -o your/output/directory -t
+3. Convert a directory into a JSON file and then convert this JOSN file into a directory at specific path
+    python tool.py your/directory -o your/output/directory -name your/output/JSON/name -i ignore_re_pattern
